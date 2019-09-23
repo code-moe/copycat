@@ -20,7 +20,7 @@ def test1():
 #Set function to join same value that exists in both lists
 def test2():
     """Set"""
-    return list(set(list_a) & set(list_b))
+    return list(set(list_a) & set(list_b)) #you can add sorted() here
 #return set
 
 #print function-return 
@@ -32,3 +32,4 @@ print(test1(), test2())
 for test in (test1, test2):
     print(f"{test.__doc__:<9} -> {Timer(test).timeit(10000):.2f}s")
 
+#Will come back later for put comment

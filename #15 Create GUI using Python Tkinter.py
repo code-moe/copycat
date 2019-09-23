@@ -1,6 +1,7 @@
 #name   : Create GUI using Python Tkinter
-#author : CodeMoe
+#author : copypaste by CodeMoe
 #date   : 26 August ,2019
+#true-a : some website
 
 #initializing tkinter
 from tkinter import *
@@ -17,7 +18,7 @@ import tkinter
 ##top.mainloop()                #To keep everything possible until you close the GUI
 ####
 
-def process():
+def process():                  
     try:
         #INPUT
         number1=Entry.get(E1)
@@ -60,3 +61,5 @@ E4.grid(row=4,column=1)
 #click button to activate function process
 B=Button(top, text ="Submit",command = process).grid(row=5,column=1)
 top.mainloop()
+
+#Will come back later for put comment
